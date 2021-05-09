@@ -16,7 +16,6 @@ Working data set: After getting rid of missing and erroneous data, we generate s
 
 Classification models: Two different classification models will be evaluated: Random Forest and Support Vector Classifier. For the RF model, we will vary the number of decision trees (1, 10, 100, 1.000 and 10.000). For the SVC model, much more computation-intensive, we will vary the size of the training set (25%, 50% and 75%). We will evaluate the performance using ROC, Error, Accuracy and Confusion Matrix.  
 
-Evaluation of results: 
+Evaluation of results: To our surprise, the Random Forest Classifier, with 100 trees, was the best model! We were expecting the SVC to be a better fit, because the offside conditions use the relative position of the players and a higher dimensional method would be able to get a better understanding of the data. When we compare the best RF to the best SVC, our RF performance is way better, with an error close to 1%! Very impressive result with such a simple model.
 
-
-Lesson learned: 
+Lesson learned: we created a model to make a decision based on the position of the players without explicitly setting the rules with an accuracy of 99%.
